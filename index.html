@@ -29,15 +29,37 @@
     .section {
       margin-top: 1.2em;
     }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .intro {
+      flex: 1;
+      min-width: 260px;
+    }
   </style>
 </head>
 <body>
-  <h1>Elira Shaska</h1>
-  <p>
-    PhD student in Computer Science with interests in quantum computing,
-    quantum software engineering, metamorphic testing, and related areas
-    in secure and reliable computation.
-  </p>
+  <div class="header">
+    <img src="IMG_3137.JPG" alt="Elira Shaska" class="profile-image">
+
+    <div class="intro">
+      <h1>Elira Shaska</h1>
+      <p>
+        PhD student in Computer Science with interests in quantum computing,
+        quantum software engineering, metamorphic testing, and related areas
+        in secure and reliable computation.
+      </p>
+    </div>
+  </div>
 
   <div class="section">
     <h2>About</h2>
